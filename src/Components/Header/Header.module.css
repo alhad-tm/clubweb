@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    padding: 2% 2%;
+}
+.logo{
+    width: 264.699px;
+height: 73px;
+flex-shrink: 0;
+}
+.hlist{
+    list-style: none;
+    display: flex;
+    gap: 1.4rem;
+}

@@ -1,0 +1,55 @@
+.container{
+    background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+   
+}
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div1right{
+    display: flex;
+    flex-direction: column;
+}
+.div1right>:nth-child(1){
+    color: #F00;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 100% */
+letter-spacing: 1.8px;
+text-transform: uppercase;
+}
+.div1right>:nth-child(2){
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+letter-spacing: 1.08px;
+text-transform: uppercase;
+}
+.rbtns{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.rbtn{
+    width: 193px;
+height: 54px;
+flex-shrink: 0;
+border: 2px solid #FFF;
+background-color: transparent;
+color: #FFF;
+
+}
+.mdbtn{
+    width: 193px;
+height: 54px;
+flex-shrink: 0;
+background: #FFF;
+}
