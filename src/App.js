@@ -6,15 +6,25 @@ import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
 import Invite from './Components/Invite/Invite';
 import Eventlist from './Components/Eventlist/Eventlist';
+import Banner from './Components/Banner/Banner';
+import Benefits from './Components/Benefits/Benefits';
+import Services from './Components/Services/Services';
+import Footer from './Components/Footer/Footer';
+import Advantage from './Components/Advantage/Advantage';
 
 function App() {
   return (
     <div className="App">
       <Router>
       <Header/>
-      <Main/>
-      <Invite/>
-      <Eventlist/>
+      <Banner/>
+      <Benefits/>
+      <Services/>
+      <Advantage/>
+      <Footer/>
+      {/* <Main/> */}
+      {/* <Invite/>
+      <Eventlist/> */}
             <Routes>
              
                 {/* <Route path='/' element={<Main/>}/> */}

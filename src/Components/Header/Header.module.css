@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: black;
     color: aliceblue;
     align-items: center;

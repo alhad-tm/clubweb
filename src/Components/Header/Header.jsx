@@ -14,10 +14,9 @@ const Header = () => {
         <div className={css.right}>
             <ul className={css.hlist}>
             <li>Home</li>
-            <li>About</li>
+            <li>Benefits</li>
            <li>Service</li>
-           <li>Event</li>
-           <li>Conatct</li>
+           <li>Conatct us</li>
             </ul>
           
           
