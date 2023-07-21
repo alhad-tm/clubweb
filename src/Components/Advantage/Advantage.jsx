@@ -22,28 +22,28 @@ const Advantage = () => {
         <div className={css.v1}> <div className={css.imgdiv}> 
          <img src={Affordable} alt="" />
           </div> 
-          <span>Affordable Price</span>
+          <span>Wallet Friendly Membership</span>
           
         </div>
         <div className={css.v1}>
         <div className={css.imgdiv}> 
          <img src={Technic} alt="" />
           </div> 
-          <span>Certified Technicians</span>
+          <span>Exclusive Access</span>
           
         </div>
         <div className={css.v1}>
         <div className={css.imgdiv}> 
          <img src={Time} alt="" />
           </div> 
-          <span>Time for Delivery</span>
+          <span>Time to time Activities</span>
           
         </div>
         <div className={css.v1}>
         <div className={css.imgdiv}> 
          <img src={Customer} alt="" />
           </div> 
-          <span>Customer Satisfaction</span>
+          <span>Best social Networking</span>
           
         </div>
       </div>

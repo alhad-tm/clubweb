@@ -22,7 +22,7 @@ function App() {
       <Header/>
       <Banner/>
       <Benefits/>
-      <Services/>
+      {/* <Services/> */}
       <AreaOfInterest/>
       <Advantage/>
       <Subscribe/>

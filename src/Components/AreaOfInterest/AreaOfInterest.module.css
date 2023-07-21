@@ -29,10 +29,12 @@
     align-items: center;
     justify-content: center;
     
+    
 }
 .content>img{
     width: 140px;
     height: 140px;
+
 }
 .content>span{
     color: #E1E1E1;

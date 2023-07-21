@@ -24,11 +24,11 @@ const Header = () => {
             Features
           </Link>
         </li>
-            <li>
+            {/* <li>
           <Link to="service" spy={true} smooth={true}>
             Service
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="contact" spy={true} smooth={true}>
             Contact

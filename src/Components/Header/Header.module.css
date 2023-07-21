@@ -19,7 +19,7 @@ margin-top: 25px;
 .hlist{
     list-style: none;
     display: flex;
-    gap: 1.4rem;
+    gap: 47px;
 }
 .hlist>li:hover{
     cursor: pointer;

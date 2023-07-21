@@ -10,7 +10,7 @@ import Car5 from "../../assets/car5.svg"
 import Car6 from "../../assets/car6.svg"
 
 import "swiper/css";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const AreaOfInterest = () => {
@@ -22,8 +22,8 @@ const AreaOfInterest = () => {
            modules={[Pagination, Navigation]}
            navigation={true}
            loopFillGroupWithBlank={true}
-           slidesPerView={3}
-           spaceBetween={10}
+           slidesPerView={5}
+           spaceBetween={0}
         //    slidesPerGroup={1}
            loop={true}
           >
@@ -56,6 +56,24 @@ const AreaOfInterest = () => {
             <div className={css.content}>
                 <img src={Car5} alt="" />
                 <span>One day drives</span>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className={css.content}>
+                <img src={Car6} alt="" />
+                <span>Road trips</span>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className={css.content}>
+                <img src={Car6} alt="" />
+                <span>Road trips</span>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className={css.content}>
+                <img src={Car6} alt="" />
+                <span>Road trips</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
