@@ -7,6 +7,8 @@ import Location from "../../assets/location.svg"
 import Insta from "../../assets/insta.svg"
 import Youtube from "../../assets/bi_youtube.svg"
 import Whatsapp from "../../assets/dashicons_whatsapp.svg"
+import Backto from "../../assets/backto.svg"
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -49,6 +51,11 @@ RS Puram, Coimbatore - 641002</span>
             
         </div>
       </div>
+<Link to="banner" spy={true} smooth={true}> <div className={css.linebtw}>
+<div className={css.backtotop}>
+        <img src={Backto} alt="" /> </div> 
+</div>   </Link>
+      
 
       <div className={css.div3}>
         <span>Copyright © 2023 invicious | All Right Reserved</span>

@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} >
         <div className={css.left}>
             <img className={css.logo} src={Logo} alt="" />
         </div>
