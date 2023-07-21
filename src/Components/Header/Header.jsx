@@ -21,7 +21,7 @@ const Header = () => {
         </li>
             <li>
           <Link to="benefits" spy={true} smooth={true}>
-            Benefits
+            Features
           </Link>
         </li>
             <li>

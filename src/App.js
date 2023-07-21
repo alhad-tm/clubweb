@@ -12,6 +12,7 @@ import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import Advantage from './Components/Advantage/Advantage';
 import Subscribe from './Components/Subscribe/Subscribe';
+import AreaOfInterest from './Components/AreaOfInterest/AreaOfInterest';
 // import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Banner/>
       <Benefits/>
       <Services/>
+      <AreaOfInterest/>
       <Advantage/>
       <Subscribe/>
       <Footer/>
