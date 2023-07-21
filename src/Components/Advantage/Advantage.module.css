@@ -1,8 +1,46 @@
 .container{
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.50) 21.35%, rgba(0, 0, 0, 0.00) 100%);
-    background-image: url(../../assets/invitebanner.svg);
+    background-image: url(../../assets/advantagebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 375px;
+    position: relative;
+    color: white;
+}
+.box{
+    border-radius: 17px 17px 0px 0px;
+    background: #020202;
+    height: 188px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.v1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.imgdiv{
+    background-color: #2A2A2A;
+    border-radius: 50%;
+    padding: 2% 2%;
+    display: flex;
+    align-items: center;justify-content: center;
+    width: 50px;height: 50px;
+}
+.v1>span{
+    color: var(--logo-color-1, #B3B3B3);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 80%;
 }
