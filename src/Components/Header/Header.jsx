@@ -1,6 +1,7 @@
 import React from 'react'
 import css from "./Header.module.css"
 import Logo from "../../assets/logo.svg"
+import { Link } from "react-scroll";
 
 
 
@@ -13,10 +14,28 @@ const Header = () => {
 
         <div className={css.right}>
             <ul className={css.hlist}>
-            <li>Home</li>
-            <li>Benefits</li>
-           <li>Service</li>
-           <li>Conatct us</li>
+            <li>
+          <Link to="banner" spy={true} smooth={true}>
+            Home
+          </Link>
+        </li>
+            <li>
+          <Link to="benefits" spy={true} smooth={true}>
+            Benefits
+          </Link>
+        </li>
+            <li>
+          <Link to="service" spy={true} smooth={true}>
+            Service
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" spy={true} smooth={true}>
+            Contact
+          </Link>
+        </li>
+           
+          
             </ul>
           
           

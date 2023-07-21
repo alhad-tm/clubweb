@@ -4,7 +4,7 @@ import Mainimg from "../../assets/main.svg";
 
 const Banner = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='banner'>
 
 <div className={css.div1}>
         <div className={css.div1left}>

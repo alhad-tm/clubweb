@@ -11,6 +11,7 @@ import Benefits from './Components/Benefits/Benefits';
 import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import Advantage from './Components/Advantage/Advantage';
+import Subscribe from './Components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Benefits/>
       <Services/>
       <Advantage/>
+      <Subscribe/>
       <Footer/>
       {/* <Main/> */}
       {/* <Invite/>

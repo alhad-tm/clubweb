@@ -10,7 +10,7 @@ import Whatsapp from "../../assets/dashicons_whatsapp.svg"
 
 const Footer = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='contact'>
       <div className={css.div1}>
         <span>FOR ANY ENQUIRIES</span>
         <div className={css.wrap}>

@@ -1,0 +1,40 @@
+.container{
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 4%;
+}
+.divleft{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.8rem;
+}
+.leftbottom{
+    display: flex;
+    gap: 0.8rem;
+}
+.inp{
+    width: 374.751px;
+    height: 50.917px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E5E5E5;
+}
+.subbtn{
+    width: 130.348px;
+height: 50.917px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #007AFF;
+border: none;
+color: #FFF;
+}
+.divright{
+    padding: 3% 2%;
+}
+.divright>img{
+    height: 248px;
+}

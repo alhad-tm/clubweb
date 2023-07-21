@@ -4,7 +4,7 @@ import Date from "../../assets/date.svg"
 import Si from "../../assets/service-illustration.svg"
 const Services = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='service'>
         <div className={css.div1}>
             <span>Our services</span>
             <span>Affordable Price Car Services Available In Coimbatore </span>
