@@ -12,6 +12,7 @@ import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import Advantage from './Components/Advantage/Advantage';
 import Subscribe from './Components/Subscribe/Subscribe';
+// import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
       {/* <Invite/>
       <Eventlist/> */}
             <Routes>
-             
+            {/* <Route path="*"  element={<PageNotFound/>} />  */}
                 {/* <Route path='/' element={<Main/>}/> */}
               
                 

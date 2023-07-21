@@ -13,8 +13,9 @@ const Banner = () => {
         <div className={css.div1right}>
           <span>EVENT 2023</span>
           <span>Comes Back To The Future</span>
+          <span>WINTER 2023</span>
           <div className={css.rbtns}>
-            <button className={css.rbtn}>Register</button>
+            <button className={css.ctbtn}>Contact</button>
             <button className={css.mdbtn}>More Details</button>
           </div>
         </div>

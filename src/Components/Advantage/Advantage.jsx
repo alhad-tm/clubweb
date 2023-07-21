@@ -10,7 +10,7 @@ import Safety from "../../assets/safety.svg"
 const Advantage = () => {
   return (
     <div className={css.container}> 
-    <span className={css.head}>Batcave Advantage</span>
+    <span className={css.head}>Batcave Benefits</span>
       <div className={css.box}>
         <div className={css.v1}>
          <div className={css.imgdiv}> 
