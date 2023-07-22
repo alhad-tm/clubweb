@@ -75,6 +75,7 @@ export default function SimpleSlider() {
   };
   return (
     <div className={css.container}> 
+   <span>Areas of interest</span>
     <Slider  {...settings}>
     <div className={css.content}>
                 <img src={Car1} alt="" />

@@ -4,6 +4,16 @@
     padding: 2% 8%;
     width: 100%;
 }
+.container>:nth-child(1){
+    color: var(--logo-color-1, #B3B3B3);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 1.7rem;
+}
 .content{
     display: flex;
     flex-direction: column;
