@@ -30,8 +30,8 @@ a:after{
   bottom: -10px;
 }
 a:hover::after{
-  width: 70%;
-  left: 16%;
+  width: 80%;
+  left: 10%;
   /* right: 50%; */
   /* top: 40%; */
 }
