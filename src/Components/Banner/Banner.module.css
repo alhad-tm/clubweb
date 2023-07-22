@@ -79,4 +79,5 @@ text-transform: uppercase;
     background-color: black;
     color: #007AFF;
     border: 1px solid #007AFF;
+    cursor: pointer;
 }

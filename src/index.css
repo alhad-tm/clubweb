@@ -16,3 +16,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  position: relative;
+  /* color: red; */
+}
+a:after{
+  content: "";
+  position: absolute;
+  background-color:  #007AFF ;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -10px;
+}
+a:hover::after{
+  width: 70%;
+  left: 16%;
+  /* right: 50%; */
+  /* top: 40%; */
+}
