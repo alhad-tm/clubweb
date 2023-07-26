@@ -8,8 +8,10 @@
 .div1 {
   display: flex;
   align-items: center;
+  width: 100%;
+  /* justify-content: space-between; */
 }
-.maining {
+.maininmg {
   width: 100%;
   /* height: 500px; */
 }
@@ -20,7 +22,7 @@
 }
 .div1right > :nth-child(1) {
   color: #f00;
-  font-family: Poppins;
+ 
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -30,7 +32,7 @@
 }
 .div1right > :nth-child(2) {
     color: #464646;
-    font-family: Poppins;
+   
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -40,7 +42,7 @@
 }
 .div1right>:nth-child(3){
     color: #FFF;
-font-family: Poppins;
+
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -80,4 +82,33 @@ text-transform: uppercase;
     color: #007AFF;
     border: 1px solid #007AFF;
     cursor: pointer;
+}
+@media screen and (max-width:786px){
+  .container{
+    width: 100%;
+    background-color: red;
+  }
+  .div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainimg{
+    width: 200px;
+    /* height: 10px; */
+  }
+  .div1left{
+    width: 100%;
+  }
+  .div1right{
+    width: 100%;
+  }
+
+  .mdbtn{
+    width: 10px;
+    height: 10px;
+  }
+  .ctbtn{
+    width: 10px;height: 10px;
+  }
 }

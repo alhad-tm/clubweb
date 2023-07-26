@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import css from "./Header.module.css"
 import Logo from "../../assets/logo.svg"
 import { Link } from "react-scroll";
+import Bars from "../../assets/bars.svg"
 
 
 
 
 const Header = () => {
+  const mobile = window.innerWidth <= 768 ? true : false;
+  const [menuOpened, setMenuOpened] = useState(false); 
+
   return (
     <div className={css.container} >
         <div className={css.left}>
@@ -14,6 +18,16 @@ const Header = () => {
         </div>
 
         <div className={css.right}>
+          
+      {menuOpened === false && mobile === true ? (
+        <div onClick={() => setMenuOpened(true)}>
+          <img className={css.bars}
+            src={Bars}
+            alt=""
+           
+          />
+        </div>
+      ) : (
             <ul className={css.hlist}>
             <li>
           <Link to="banner" spy={true} smooth={true}>
@@ -37,7 +51,7 @@ const Header = () => {
         </li>
            
           
-            </ul>
+            </ul> )}
           
           
         </div>

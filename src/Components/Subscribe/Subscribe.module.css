@@ -39,3 +39,12 @@ color: #FFF;
     height: 248px;
     width: 100%;
 }
+
+@media screen and (max-width:786px){
+    .container{
+        width: 100%;
+    }
+    .inp{
+        width: 30px;
+    }
+}

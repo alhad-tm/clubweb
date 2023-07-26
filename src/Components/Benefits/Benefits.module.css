@@ -107,3 +107,20 @@ font-style: normal;
 font-weight: 300;
 line-height: 26px; /* 173.333% */
 }
+
+@media screen and (max-width:786px){
+    .container{
+        width: 100%;
+        background-color: #007AFF;
+    }
+    .set{
+        width: 30%;
+    }
+    .box{
+        width: 100px;
+        height: 150px;
+    }
+   .box>span{
+    font-size: 7px;
+   }
+}

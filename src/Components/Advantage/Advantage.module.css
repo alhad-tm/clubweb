@@ -54,3 +54,23 @@ font-weight: 300;
 line-height: normal;
 width: 80%;
 }
+
+@media screen and (max-width:786px){
+    .container{
+        width: 100%;
+    }
+    .box{
+        width: 80%;
+    }
+    .imgdiv{
+        width: 20px;
+        height: 20px;
+    }
+    .imgdiv>img{
+        width: 10px;
+        height: 10px;
+    }
+    .v1>span{
+        font-size: 5px;
+    }
+}

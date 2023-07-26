@@ -26,3 +26,19 @@ margin-top: 25px;
     color: #007AFF;
    
 }
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        padding: 0% 5%;
+    }
+    .hlist{
+        position: absolute;
+        background-color: #007AFF;
+        height: 181px;
+    display: flex;
+    flex-direction: column;
+    right: 17px;
+    top: 5px;
+    }
+    
+}

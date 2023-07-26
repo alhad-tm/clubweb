@@ -8,7 +8,7 @@ const Banner = () => {
 
 <div className={css.div1}>
         <div className={css.div1left}>
-          <img className={css.maining} src={Mainimg} alt="" />
+          <img className={css.mainimg} src={Mainimg} alt="" />
         </div>
         <div className={css.div1right}>
           <span>EVENT 2023</span>
