@@ -21,6 +21,7 @@ const AreaOfInterest = () => {
         <Swiper className={css.swiperdiv}
            modules={[Pagination, Navigation]}
            navigation={true}
+           pagination={true}
            loopFillGroupWithBlank={true}
            slidesPerView={5}
            spaceBetween={0}

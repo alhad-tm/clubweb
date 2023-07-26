@@ -25,7 +25,7 @@ function App() {
       <Banner/>
       <Benefits/>
       {/* <Services/> */}
-      {/* <AreaOfInterest/> */}
+      <AreaOfInterest/>
       <SimpleSlider/>
       
       <Advantage/>

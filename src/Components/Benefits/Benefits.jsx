@@ -20,7 +20,7 @@ const Benefits = () => {
  <div className={css.div2}>
     <div className={css.set}>
         <img src={Circle} alt="" />
-        <span>Road services</span>
+        <span>Organized Road Trips</span>
         <div className={css.box}>
             <span>
             Constant interaction with car owners is our main task in the process of brand development, 
@@ -31,7 +31,7 @@ and their Car Services
     </div>
     <div className={css.set}>
         <img src={B2} alt="" />
-        <span>Road services</span>
+        <span>Exotic Car Shows</span>
         <div className={css.box}>
       
             <span>
@@ -49,8 +49,8 @@ and their Car Services
  </span>
         </div>
     </div>
- </div>
- <div className={css.div2}>
+ {/* </div>
+ <div className={css.div2}> */}
     <div className={css.set}>
         <img src={B4} alt="" />
         <span>Earn Reward points</span>
@@ -72,7 +72,7 @@ and their Car Services
     </div>
     <div className={css.set}>
         <img src={B6} alt="" />
-        <span>Hign Quality Network</span>
+        <span>Hign Quality Networks</span>
         <div className={css.box}>
             
             <span>

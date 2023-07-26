@@ -35,3 +35,9 @@ a:hover::after{
   /* right: 50%; */
   /* top: 40%; */
 }
+
+.swiper-button-prev{
+  /* background-color: red; */
+  color: crimson !important;
+  margin-left: 1rem;
+} 

@@ -31,6 +31,7 @@ line-height: 32px; /* 128% */
 .div2{
     margin-top: 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -39,7 +40,7 @@ line-height: 32px; /* 128% */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    /* width: 30%; */
     gap: 0.4rem;
 }
 .set>img{
@@ -108,19 +109,51 @@ font-weight: 300;
 line-height: 26px; /* 173.333% */
 }
 
+@media  screen and (min-width: 820px) and (max-width: 999px){
+.set{
+    width: 40%;
+    margin-top: 1rem;
+}
+}
+@media  screen and (min-width: 999px) and (max-width: 1100px){
+.set{
+    width: 28%;
+    margin-top: 1rem;
+}
+}
+@media  screen and (min-width: 1100px) and (max-width: 2200px){
+.set{
+    width: 30%;
+    margin-top: 1rem;
+}
+}
 @media screen and (max-width:786px){
     .container{
         width: 100%;
-        background-color: #007AFF;
+        /* background-color: #ee0e0e; */
+    }
+    .div1>:nth-child(1){
+        font-size: 14px;
+    }
+    .div1>:nth-child(2){
+        font-size: 10px;
+        line-height: normal;
     }
     .set{
-        width: 30%;
+        width: 50%;
+        margin-top: 1rem;
+    }
+    .set>:nth-child(2){
+        font-size: 10px;
     }
     .box{
-        width: 100px;
-        height: 150px;
+        width: 80%;
+        height: 88px;
+        border-image: linear-gradient(90deg, #007AFF, #00000000) 5;
+        padding: 0% 0%;
     }
    .box>span{
-    font-size: 7px;
+    font-size: 8px;
+    line-height: normal;
    }
 }

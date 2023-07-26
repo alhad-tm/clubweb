@@ -67,7 +67,7 @@ export default function SimpleSlider() {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 4,
             slidesToScroll: 1
           }
         }

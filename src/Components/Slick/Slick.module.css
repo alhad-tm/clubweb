@@ -40,3 +40,18 @@ letter-spacing: -0.24px;
    
     padding-left: 2%;
 }
+
+@media screen and (max-width:786px){
+    .container{
+        width: 100%;
+    }
+    .container>:nth-child(1){
+        font-size: 14px;
+    }
+    .slid{
+        padding: 16%;
+    }
+    .content>img{
+        width: 70px;height: 70px;
+    }
+}
