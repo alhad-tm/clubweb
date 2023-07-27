@@ -28,14 +28,14 @@ const Header = () => {
           />
         </div>
       ) : (
-            <ul className={css.hlist}>
-            <li>
-          <Link to="banner" spy={true} smooth={true}>
+            <ul className={css.hlist} onClick={()=>setMenuOpened(false)}>
+            <li onClick={()=>setMenuOpened(!menuOpened)} >
+          <Link  onClick={()=>setMenuOpened(false)} to="banner" spy={true} smooth={true}>
             Home
           </Link>
         </li>
             <li>
-          <Link to="benefits" spy={true} smooth={true}>
+          <Link  onClick={()=>setMenuOpened(false)} to="benefits" spy={true} smooth={true}>
             Features
           </Link>
         </li>
@@ -44,8 +44,8 @@ const Header = () => {
             Service
           </Link>
         </li> */}
-        <li>
-          <Link to="contact" spy={true} smooth={true}>
+        <li onClick={()=>setMenuOpened(false)}>
+          <Link  onClick={()=>setMenuOpened(false)} to="contact" spy={true} smooth={true}>
             Contact
           </Link>
         </li>
