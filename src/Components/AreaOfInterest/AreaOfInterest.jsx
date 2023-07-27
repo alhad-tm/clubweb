@@ -96,7 +96,7 @@ const AreaOfInterest = () => {
             </SwiperSlide>
             <SwiperSlide>
             <div className={css.content}>
-                <img src={Car6} alt="" />
+                <img src={Car9} alt="" />
                 <span>Mods</span>
                 </div>
             </SwiperSlide>

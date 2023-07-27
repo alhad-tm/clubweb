@@ -46,20 +46,26 @@ color: #FFF;
         width: 100%;
         display: flex;
         align-items: center;
+        flex-direction: column-reverse;
     }
     .divleft{
-        width: 45%;
+        /* width: 45%; */
     }
     .divleft>span{
         font-size: 10px;
     }
    
+   
     .inp{
       
-        width: 100%;
+        width: 90%;
 height: 24.838px;
 flex-shrink: 0;
-border-radius: 10px;
+/* border-radius: 10px; */
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
 background: #E5E5E5;
 border: none;
 position: relative;
@@ -69,15 +75,19 @@ position: relative;
     }
     .rect{
         position: absolute;
-       left: 41%;
+       left: 89%;
+       height: 25px;
         /* top: 0; */
     }
     .divright{
-        width: 45%;
+        /* width: 45%; */
         height: 110px;
     }
     .divright>img{
         height: 100px;
         width: 80%;
+    }
+    .leftbottom{
+        position: relative;
     }
 }
