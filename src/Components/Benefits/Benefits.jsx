@@ -1,6 +1,7 @@
 import React from 'react' 
 import css from "./Benefits.module.css"
 import Circle from "../../assets/circle.svg"
+import B1 from "../../assets/b1.svg"
 import B2 from "../../assets/b2.svg"
 import B3 from "../../assets/b3.svg"
 import B4 from "../../assets/b4.svg"
@@ -19,7 +20,7 @@ const Benefits = () => {
 
  <div className={css.div2}>
     <div className={css.set}>
-        <img src={Circle} alt="" />
+        <img src={B1} alt="" />
         <span>Organized Road Trips</span>
         <div className={css.box}>
             <span>

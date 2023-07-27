@@ -33,6 +33,14 @@ const Footer = () => {
         <div className={css.div2left}>
             <img src={Logo} alt="" />
         </div>
+        <div className={css.div2middle}>
+          <ul className={css.newli}>
+            <li><Link to="banner" spy={true} smooth={true}> Home</Link></li>
+            <li><Link to="benefits" spy={true} smooth={true}> Features</Link></li>
+            <li><Link to="contact" spy={true} smooth={true}> Contact</Link></li>
+           
+          </ul>
+        </div>
 
         <div className={css.div2right}>
         <div className={css.line2}>
@@ -57,16 +65,16 @@ RS Puram, Coimbatore - 641002</span>
             
         </div>
       </div>
-<Link to="banner" spy={true} smooth={true}> <div className={css.linebtw}>
+{/* <Link to="banner" spy={true} smooth={true}> <div className={css.linebtw}>
 <div className={css.backtotop}>
         <img src={Backto} alt="" /> </div> 
-</div>   </Link>
+</div>   </Link> */}
       
- {mobile? ( <div className={css.lists}>
+ {/* {mobile? ( <div className={css.lists}>
   <li>Home</li>
   <li>Home</li>
   <li>Home</li>
- </div>) :""}
+ </div>) :""} */}
       <div className={css.div3}>
         <span>Copyright © 2023 invicious | All Right Reserved</span>
       </div>

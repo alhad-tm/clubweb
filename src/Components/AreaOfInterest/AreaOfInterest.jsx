@@ -8,6 +8,9 @@ import Car3 from "../../assets/car3.svg"
 import Car4 from "../../assets/car4.svg"
 import Car5 from "../../assets/car5.svg"
 import Car6 from "../../assets/car6.svg"
+import Car7 from "../../assets/car7.svg"
+import Car8 from "../../assets/car8.svg"
+import Car9 from "../../assets/car9.svg"
 
 import "swiper/css";
 // import "swiper/css/pagination";
@@ -81,20 +84,20 @@ const AreaOfInterest = () => {
             </SwiperSlide>
             <SwiperSlide>
             <div className={css.content}>
-                <img src={Car6} alt="" />
-                <span>Road trips</span>
+                <img src={Car7} alt="" />
+                <span>JDM</span>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className={css.content}>
+                <img src={Car8} alt="" />
+                <span>German Beast</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
             <div className={css.content}>
                 <img src={Car6} alt="" />
-                <span>Road trips</span>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className={css.content}>
-                <img src={Car6} alt="" />
-                <span>Road trips</span>
+                <span>Mods</span>
                 </div>
             </SwiperSlide>
         </Swiper>

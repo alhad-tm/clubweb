@@ -90,6 +90,15 @@ text-transform: uppercase;
     border: 1px solid #007AFF;
     cursor: pointer;
 }
+.b2{
+  width: 400px;
+  height: 400px;
+}
+@media  screen and (min-width: 452px) and (max-width: 786px){
+  .div1left{
+    width: 23%;
+  }
+}
 @media screen and (max-width:786px){
   .container{
     width: 100%;

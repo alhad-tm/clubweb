@@ -1,7 +1,8 @@
 import React from 'react'
 import css from "./Subscribe.module.css"
 import Screen from "../../assets/HP-Elite.svg"
-import Rectangle from "../../assets/Rectangle 41.svg"
+import Rectangle from "../../assets/sentmessage.svg"
+
 
 const Subscribe = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
