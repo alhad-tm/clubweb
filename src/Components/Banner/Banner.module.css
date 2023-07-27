@@ -125,17 +125,25 @@ text-transform: uppercase;
     font-size: 8px;
     line-height: normal;
   
+
+  }
+  .rbtns{
+    gap: 1rem;
   }
 
   .mdbtn{
-    width: 10px;
-    height: 10px;
-    font-size: 4px;
+    width: 56px;
+    height: 24px;
+    /* padding: 12px 54px; */
+    font-size: 10px;
   }
   .ctbtn{
-    width: 98px;
-    height: 28px;
-    padding: 12px 54px;
+  
+    width: 56px;
+    height: 24px;
+    /* padding: 12px 54px; */
+    font-size: 10px;
+}
     
   }
-}
+

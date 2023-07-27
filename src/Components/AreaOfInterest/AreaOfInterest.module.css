@@ -22,6 +22,9 @@
     display: flex; 
     gap: 1rem; 
 }  */
+/* .swiperdiv{
+    height: 200px;
+} */
 
 .content{
     display: flex;
@@ -44,4 +47,37 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.24px;
+}
+@media screen and (max-width:451px){
+    .content>img{
+        width: 52px;
+        height: 65px;
+    }
+    .content>span{
+        font-size: 7px;
+    }
+}
+@media  screen and (min-width: 452px) and (max-width: 786px){
+    .content>img{
+        width: 80px;
+        height: 90px;
+    }
+    .content>span{
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width: 786px) and (max-width: 1024px){
+    .content>img{
+        width: 96px;
+        height: 100px;
+    }
+    .content>span{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:786px){
+ .container>:nth-child(1){
+    font-size:14px ;
+ }
+  
 }

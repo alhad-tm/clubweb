@@ -58,9 +58,15 @@ width: 80%;
 @media screen and (max-width:786px){
     .container{
         width: 100%;
+        height: 136px;
+        padding-top: 1rem;
+    }
+    .head{
+        font-size: 14px;
     }
     .box{
         width: 80%;
+        height: 60px;
     }
     .imgdiv{
         width: 20px;

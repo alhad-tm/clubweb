@@ -11,7 +11,9 @@ import Backto from "../../assets/backto.svg"
 import { Link } from "react-scroll";
 
 const Footer = () => {
+  const mobile = window.innerWidth <= 768 ? true : false;
   return (
+   
     <div className={css.container} id='contact'>
       <div className={css.div1}>
         <span>FOR ANY ENQUIRIES</span>
@@ -42,6 +44,10 @@ RS Puram, Coimbatore - 641002</span>
                 <img src={Phone} alt="" />
                <span>+12345677</span>
             </div>
+        <div className={css.linenew}>
+                <img src={Mail} alt="" />
+               <span>Contact@batcave.co.in</span>
+            </div>
 
             <div className={css.line4}>
                 <img src={Insta} alt="" />
@@ -56,7 +62,11 @@ RS Puram, Coimbatore - 641002</span>
         <img src={Backto} alt="" /> </div> 
 </div>   </Link>
       
-
+ {mobile? ( <div className={css.lists}>
+  <li>Home</li>
+  <li>Home</li>
+  <li>Home</li>
+ </div>) :""}
       <div className={css.div3}>
         <span>Copyright © 2023 invicious | All Right Reserved</span>
       </div>
@@ -64,4 +74,4 @@ RS Puram, Coimbatore - 641002</span>
   )
 }
 
-export default Footer
+export default Footer 

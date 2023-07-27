@@ -22,6 +22,7 @@
     flex-shrink: 0;
     border-radius: 10px;
     background: #E5E5E5;
+    border: none;
 }
 .subbtn{
     width: 130.348px;
@@ -43,8 +44,40 @@ color: #FFF;
 @media screen and (max-width:786px){
     .container{
         width: 100%;
+        display: flex;
+        align-items: center;
     }
+    .divleft{
+        width: 45%;
+    }
+    .divleft>span{
+        font-size: 10px;
+    }
+   
     .inp{
-        width: 30px;
+      
+        width: 100%;
+height: 24.838px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E5E5E5;
+border: none;
+position: relative;
+    }
+    ::placeholder{
+        font-size: 10px;
+    }
+    .rect{
+        position: absolute;
+       left: 41%;
+        /* top: 0; */
+    }
+    .divright{
+        width: 45%;
+        height: 110px;
+    }
+    .divright>img{
+        height: 100px;
+        width: 80%;
     }
 }

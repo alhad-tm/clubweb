@@ -13,7 +13,7 @@ import Footer from './Components/Footer/Footer';
 import Advantage from './Components/Advantage/Advantage';
 import Subscribe from './Components/Subscribe/Subscribe';
 import AreaOfInterest from './Components/AreaOfInterest/AreaOfInterest';
-import SimpleSlider from './Components/Slick/Slick';
+// import SimpleSlider from './Components/Slick/Slick';
 
 // import PageNotFound from './Components/PageNotFound/PageNotFound';
 
@@ -26,7 +26,7 @@ function App() {
       <Benefits/>
       {/* <Services/> */}
       <AreaOfInterest/>
-      <SimpleSlider/>
+      {/* <SimpleSlider/> */}
       
       <Advantage/>
       <Subscribe/>

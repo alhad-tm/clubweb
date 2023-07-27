@@ -11,7 +11,7 @@ import Car6 from "../../assets/car6.svg"
 
 import "swiper/css";
 // import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css/navigation";
 
 const AreaOfInterest = () => {
   return (
@@ -19,11 +19,25 @@ const AreaOfInterest = () => {
         <span>Area of interest</span>
         <div >
         <Swiper className={css.swiperdiv}
+          breakpoints={{
+            1140:{
+                slidesPerView:6,
+            },
+            1024:{
+                slidesPerView:6,
+            },
+        786: {
+          slidesPerView: 6,
+        },
+        0: {
+          slidesPerView: 4,
+        },
+      }}
            modules={[Pagination, Navigation]}
-           navigation={true}
-           pagination={true}
+        //    navigation={true}
+        //    pagination={true}
            loopFillGroupWithBlank={true}
-           slidesPerView={5}
+           slidesPerView={6}
            spaceBetween={0}
         //    slidesPerGroup={1}
            loop={true}
