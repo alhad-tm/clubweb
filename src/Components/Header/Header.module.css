@@ -50,7 +50,20 @@ background-color: black;
     padding: 2% 2%;
     /* min-width: 100%;
     min-height: 100vh; */
+    position: absolute;
+    /* border-radius: 10px; */
+  
+    background-color: #0c0c0c;
+   
+    width: 92px;
+  
+    top: 5px;
+  
+    padding: 4% 2%;
+    border-radius: 10px;
+
+}
   
     }
     
-}
+
