@@ -13,7 +13,7 @@ import Car8 from "../../assets/car8.svg"
 import Car9 from "../../assets/car9.svg"
 
 import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
 const AreaOfInterest = () => {
@@ -24,7 +24,7 @@ const AreaOfInterest = () => {
         <Swiper className={css.swiperdiv}
           breakpoints={{
             1140:{
-                slidesPerView:6,
+                slidesPerView:7,
             },
             1024:{
                 slidesPerView:6,
@@ -38,7 +38,7 @@ const AreaOfInterest = () => {
       }}
            modules={[Pagination, Navigation]}
         //    navigation={true}
-        //    pagination={true}
+           pagination={true}
            loopFillGroupWithBlank={true}
            slidesPerView={6}
            spaceBetween={0}
@@ -67,7 +67,7 @@ const AreaOfInterest = () => {
             <SwiperSlide>
             <div className={css.content}>
                 <img src={Car4} alt="" />
-                <span>Dirty shows</span>
+                <span>Drift shows</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>

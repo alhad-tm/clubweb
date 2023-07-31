@@ -10,8 +10,10 @@ import Safety from "../../assets/safety.svg"
 const Advantage = () => {
   return (
     <div className={css.container}> 
-    <span className={css.head}>Batcave Benefits</span>
+    
       <div className={css.box}>
+      <span className={css.head}>Batcave Benefits</span>
+        <div className={css.new}>
         <div className={css.v1}>
          <div className={css.imgdiv}> 
          <img src={Safety} alt="" />
@@ -46,6 +48,7 @@ const Advantage = () => {
           <span>Best social Networking</span>
           
         </div>
+      </div>
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Subscribe.module.css"
-import Screen from "../../assets/HP-Elite.svg"
+import Screen from "../../assets/screennew.png"
 import Rectangle from "../../assets/sentmessage.svg"
 
 

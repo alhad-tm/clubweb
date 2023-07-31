@@ -1,6 +1,7 @@
 import React from 'react'
 import css from "./Banner.module.css"
 import Mainimg from "../../assets/main.svg";
+import { Link } from 'react-scroll';
 
 
 const Banner = () => {
@@ -16,8 +17,8 @@ const Banner = () => {
           <span>Comes Back To The Future</span>
           <span>WINTER 2023</span>
           <div className={css.rbtns}>
-            <button className={css.ctbtn}>Contact</button>
-            <button className={css.mdbtn}>More Details</button>
+         <Link to ="contact" spy={true} smooth={true}>  <button className={css.ctbtn}>Contact</button> </Link>  
+         <Link to ="contact" spy={true} smooth={true}>     <button className={css.mdbtn}>More Details</button> </Link>  
           </div>
         </div>
  </div>

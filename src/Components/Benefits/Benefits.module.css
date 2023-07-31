@@ -26,7 +26,7 @@ line-height: 22px; /* 78.571% */
 .div1>:nth-child(2){
     color: #ECE9E9;
 text-align: center;
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
@@ -57,10 +57,11 @@ line-height: 32px; /* 128% */
     flex-shrink: 0;
     fill: #0E0E0E;
     backdrop-filter: blur(2px);
+    justify-content: center;
  
     align-items: center;
     display: flex;
-    padding: 2% 2%;
+    padding: 2% 3%;
     background: #0E0E0E;
     
 
@@ -104,10 +105,10 @@ line-height: 32px; /* 128% */
     border-bottom: 1px solid red;
 } */
 .box>span{
-    color: #E3E2E2;
+    color: #808080;
 text-align: center;
-font-family: Poppins;
-font-size: 15px;
+
+font-size: 14px;
 font-style: normal;
 font-weight: 300;
 line-height: 26px; /* 173.333% */
@@ -116,19 +117,19 @@ line-height: 26px; /* 173.333% */
 @media  screen and (min-width: 820px) and (max-width: 999px){
 .set{
     width: 40%;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 }
 @media  screen and (min-width: 999px) and (max-width: 1100px){
 .set{
     width: 28%;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 }
 @media  screen and (min-width: 1100px) and (max-width: 2200px){
 .set{
     width: 30%;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 }
 }
 @media screen and (max-width:786px){

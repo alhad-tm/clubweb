@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.7rem;
+    gap: 2.8rem;
     background-image: url(../../assets/enquire-bg.svg);
     background-size: cover;
     height: 288px;
@@ -50,6 +50,27 @@ line-height: normal;
     list-style: none;
     font-size: 16px;
     cursor: pointer;
+     color: #B3B3B3;
+}
+.newli>li:hover{
+    cursor: pointer;
+    color: #007AFF;
+}
+.newli>li{
+    position: relative;
+}
+.newli>li::after{
+    content: "";
+    position: absolute;
+    background-color:  #007AFF ;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -4px;
+}
+.newli>li:hover::after{
+    width: 62%;
+    left: 5%;
 }
 .div2left>img{
     width: 100%;
@@ -72,18 +93,24 @@ line-height: normal;
     width: 300px;
     height: 22px;
     text-align: left;
+    font-size: 14px;
+    color: #B3B3B3;
 }
 .line3{
     display: flex;
     gap: 0.6rem;
     align-items: center;
     margin-top: 2.2rem;
+    font-size: 14px;
+     color: #B3B3B3;
 }
 .linenew{
     display: flex;
     gap: 0.6rem;
     align-items: center;
     margin-top: 0.7rem;
+    font-size: 14px;
+     color: #B3B3B3;
 }
 /* .line3>:nth-child(2){
     width: 300px;
@@ -101,7 +128,7 @@ line-height: normal;
 }
 .div3>:nth-child(1){
     color: #9F9F9F;
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 16px;
 font-style: normal;
 font-weight: 400;

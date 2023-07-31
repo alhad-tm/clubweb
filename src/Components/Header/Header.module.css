@@ -7,7 +7,7 @@
     padding: 0% 7%;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
     height: 100px;
 }
 .logo{
@@ -26,6 +26,36 @@ margin-top: 25px;
     color: #007AFF;
    
 }
+
+
+.hlist>li{
+    position: relative;
+    /* color: red; */
+  }
+ .hlist>li:after{
+    content: "";
+    position: absolute;
+    background-color:  #007AFF ;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+  }
+  .hlist>li:hover::after{
+    width: 80%;
+    left: 10%;
+    /* right: 50%; */
+    /* top: 40%; */
+  }
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:768px){
     .container{
         width: 100%;

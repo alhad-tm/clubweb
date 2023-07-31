@@ -13,7 +13,7 @@
 }
 .div1>:nth-child(1){
     color: var(--logo-color-1, #B3B3B3);
-font-family: Poppins;
+
 font-size: 28px;
 font-style: normal;
 font-weight: 500;
@@ -21,7 +21,7 @@ line-height: normal;
 }
 .div1>:nth-child(2){
     color: var(--logo-color-1, #B3B3B3);
-font-family: Poppins;
+
 font-size: 20px;
 font-style: normal;
 font-weight: 300;

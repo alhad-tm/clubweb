@@ -1,30 +1,33 @@
 .container{
-    background-color: black;
+    background: #121212;
     color: white;
     display: flex;
-    padding: 4% 8%;
+    padding: 2% 0%;
     display: flex;
     flex-direction: column;
     z-index: -1;
 }
 .container>:nth-child(1){
     color: var(--logo-color-1, #B3B3B3);
-    font-family: Poppins;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+   text-align: center;
+   display: block;
 }
 
 /* .swiperdiv{
     display: flex; 
     gap: 1rem; 
 }  */
-/* .swiperdiv{
-    height: 200px;
-} */
+.swiperdiv{
+    height: 240px;
+    width: 100%;
+    padding: 5% 8%;
+}
 
 .content{
     display: flex;
@@ -35,41 +38,72 @@
     
 }
 .content>img{
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
 
+}
+.content>img:hover{
+    transform: scale(1.1);
 }
 .content>span{
     color: #E1E1E1;
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.24px;
+margin-top: 0.7rem;
 }
 @media screen and (max-width:451px){
     .content>img{
-        width: 52px;
-        height: 65px;
+        width: 64px;
+        height: 64px;
     }
     .content>span{
         font-size: 7px;
     }
 }
-@media  screen and (min-width: 452px) and (max-width: 786px){
+@media  screen and (min-width: 452px) and (max-width: 600px){
     .content>img{
-        width: 80px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     }
     .content>span{
         font-size: 10px;
     }
 }
-@media  screen and (min-width: 786px) and (max-width: 1024px){
+@media  screen and (min-width: 601px) and (max-width: 786px){
     .content>img{
-        width: 96px;
+        width: 131px;
+        height: 131px;
+    }
+    .content>span{
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width: 786px) and (max-width: 920px){
+    .content>img{
+        width: 100px;
         height: 100px;
+    }
+    .content>span{
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width: 920px) and (max-width: 1024px){
+    .content>img{
+        width: 134px;
+        height: 134px;
+    }
+    .content>span{
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width: 1024px) and (max-width: 1160px){
+    .content>img{
+        width: 134px;
+        height: 134px;
     }
     .content>span{
         font-size: 10px;
@@ -78,6 +112,7 @@ letter-spacing: -0.24px;
 @media screen and (max-width:786px){
  .container>:nth-child(1){
     font-size:14px ;
+    margin-bottom: 1rem;
  }
   
 }

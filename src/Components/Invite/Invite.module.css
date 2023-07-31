@@ -23,7 +23,7 @@ padding: 4% 4%;
 }
 .leftone>:nth-child(1){
     color: #FFF;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +38,7 @@ padding: 4% 4%;
 }
 .lefttwo>:nth-child(1){
     color: #FFF;
-    font-family: Poppins;
+ 
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -51,7 +51,7 @@ padding: 4% 4%;
 .right>:nth-child(1){
     color: #FFF;
 text-align: center;
-font-family: Poppins;
+
 font-size: 55px;
 font-style: normal;
 font-weight: 500;
