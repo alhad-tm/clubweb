@@ -43,3 +43,11 @@
   margin: 0;
   padding: 0;
 } 
+
+.swiper-pagination-bullet{
+  background-color: #007AFF !important;
+  
+
+  /* margin-top: 5rem !important; */
+
+}

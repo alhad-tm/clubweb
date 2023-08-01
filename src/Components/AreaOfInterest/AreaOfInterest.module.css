@@ -24,9 +24,9 @@
     gap: 1rem; 
 }  */
 .swiperdiv{
-    height: 240px;
+    height: 260px;
     width: 100%;
-    padding: 5% 8%;
+    padding: 0% 8%;
 }
 
 .content{
@@ -34,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
     
     
 }
@@ -44,6 +45,8 @@
 }
 .content>img:hover{
     transform: scale(1.1);
+    transition-duration: 500ms;
+    cursor: pointer;
 }
 .content>span{
     color: #E1E1E1;
@@ -63,14 +66,25 @@ margin-top: 0.7rem;
     .content>span{
         font-size: 7px;
     }
+    .swiperdiv{
+        height: 11px;
+    }
 }
-@media  screen and (min-width: 452px) and (max-width: 600px){
+@media  screen and (min-width: 320px) and (max-width: 451px){
+    .swiperdiv{
+        height: 131px;
+    }
+}
+@media  screen and (min-width: 451px) and (max-width: 600px){
     .content>img{
         width: 100px;
         height: 100px;
     }
     .content>span{
         font-size: 10px;
+    }
+    .swiperdiv{
+        height: 170px;
     }
 }
 @media  screen and (min-width: 601px) and (max-width: 786px){
@@ -81,6 +95,9 @@ margin-top: 0.7rem;
     .content>span{
         font-size: 10px;
     }
+    .swiperdiv{
+        height: 199px;
+    }
 }
 @media  screen and (min-width: 786px) and (max-width: 920px){
     .content>img{
@@ -89,6 +106,9 @@ margin-top: 0.7rem;
     }
     .content>span{
         font-size: 10px;
+    }
+    .swiperdiv{
+        height: 181px;
     }
 }
 @media  screen and (min-width: 920px) and (max-width: 1024px){
@@ -99,6 +119,9 @@ margin-top: 0.7rem;
     .content>span{
         font-size: 10px;
     }
+    .swiperdiv{
+        height: 215px;
+    }
 }
 @media  screen and (min-width: 1024px) and (max-width: 1160px){
     .content>img{
@@ -108,11 +131,17 @@ margin-top: 0.7rem;
     .content>span{
         font-size: 10px;
     }
+    .swiperdiv{
+        height: 230px;
+    }
 }
 @media screen and (max-width:786px){
  .container>:nth-child(1){
     font-size:14px ;
     margin-bottom: 1rem;
  }
-  
+ /* .swiperdiv{
+    height: 131px;
+ }
+   */
 }

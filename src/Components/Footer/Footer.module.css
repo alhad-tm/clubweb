@@ -168,6 +168,13 @@ text-transform: capitalize;
     .div2{
        display: flex;
        flex-direction: column;
+      
+    }
+    .div2left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
     }
     .div2right{
         width: 100%;
@@ -175,7 +182,7 @@ text-transform: capitalize;
     .line>span{
         font-size: 10px;
     }
-    .line2>span{
+    .line2>:nth-child(2){
         font-size: 10px;
     }
     .line3{
@@ -208,7 +215,7 @@ text-transform: capitalize;
         justify-content: space-around;
         flex-direction: row;
         position: absolute;
-        right: -95px;
+        right: -83px;
         top: 206px;
     }
     .newli>li{
