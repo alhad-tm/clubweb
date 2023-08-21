@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Banner.module.css"
-import Mainimg from "../../assets/main.svg";
+import Mainimg from "../../assets/mainnew.png"; 
 import { Link } from 'react-scroll';
 
 

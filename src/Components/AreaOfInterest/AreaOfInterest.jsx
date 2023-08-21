@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./AreaOfInterest.module.css"
 import { Swiper, SwiperSlide } from "swiper/react";
-import {  Pagination ,Navigation} from "swiper/modules";
+import {  Pagination } from "swiper/modules";
 import Car1 from "../../assets/car1.svg"
 import Car2 from "../../assets/car22.svg"
 import Car3 from "../../assets/car3.svg"
@@ -19,7 +19,7 @@ import "swiper/css/pagination";
 const AreaOfInterest = () => {
   return (
     <div className={css.container}>
-        <span>Area of interest</span>
+        <span>What to expect?</span>
         <div >
         <Swiper className={css.swiperdiv}
           breakpoints={{
@@ -36,14 +36,14 @@ const AreaOfInterest = () => {
           slidesPerView: 4,
         },
       }}
-           modules={[Pagination, Navigation]}
-        //    navigation={true}
-           pagination={true}
+           modules={[Pagination]}
+        pagination={{ clickable: true }}
            loopFillGroupWithBlank={true}
+           loop={true}
            slidesPerView={6}
            spaceBetween={0}
-        //    slidesPerGroup={1}
-           loop={true}
+           slidesPerGroup={1}
+          
           >
             <SwiperSlide>
                 <div className={css.content}>

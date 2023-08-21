@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0% 4%;
+    padding: 2% 4%;
 }
 .divleft{
     display: flex;
@@ -23,6 +23,7 @@
     border-radius: 10px;
     background: #E5E5E5;
     border: none;
+    outline: none;
     padding-left: 25px;
 }
 .subbtn{
@@ -75,6 +76,7 @@ border-top-right-radius: 0;
 border-bottom-right-radius: 0;
 background: #E5E5E5;
 border: none;
+outline: none;
 position: relative;
     }
     ::placeholder{

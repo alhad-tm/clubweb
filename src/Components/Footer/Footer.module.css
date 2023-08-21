@@ -35,8 +35,8 @@ line-height: normal;
 .div2{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
+    /* align-items: center; */
+    margin-top: 3rem;
     padding: 0% 7%;
     
 }
@@ -75,6 +75,7 @@ line-height: normal;
 .div2left>img{
     width: 100%;
     height: 122px;
+    margin-top: -1rem;
 }
 
 .div2right{
@@ -112,6 +113,16 @@ line-height: normal;
     font-size: 14px;
      color: #B3B3B3;
 }
+.linenew>a{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  
+    font-size: 14px;
+     color: #B3B3B3;
+     text-decoration: none;
+
+}
 /* .line3>:nth-child(2){
     width: 300px;
     height: 22px;
@@ -121,11 +132,28 @@ line-height: normal;
     gap: 0.7rem;
     margin-left: 2.2rem;
 }
-.line4>img{
+.mediawrap{
     background-color: #2A2A2A;
     border-radius: 50%;
-    padding: 2% 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
 }
+.mediawrap:hover{
+    background-color: #007AFF;
+
+}
+.mediawrap:hover > svg path{
+    fill:black;
+
+}
+.mediawrap>img{
+    width: 22px;
+}
+
 .div3>:nth-child(1){
     color: #9F9F9F;
 /* font-family: Poppins; */
@@ -168,6 +196,8 @@ text-transform: capitalize;
     .div2{
        display: flex;
        flex-direction: column;
+       align-items: center;
+       margin-top: 2rem;
       
     }
     .div2left{
@@ -194,6 +224,9 @@ text-transform: capitalize;
     .linenew>span{
         font-size: 10px;
     }
+    .linenew>a{
+        font-size: 10px;
+    }
     .lists>li{
         list-style: none;
         font-size: 10px;
@@ -201,6 +234,15 @@ text-transform: capitalize;
     .lists{
         display: flex;
         justify-content: space-around;
+    }
+    .mediawrap{
+        width: 33px;
+        height: 33px;
+        padding: 3%;
+    }
+
+    .mediawrap>img{
+        width: 22px;
     }
     .div3>:nth-child(1){
         font-size: 10px; 
