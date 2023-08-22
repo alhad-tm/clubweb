@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./AreaOfInterest.module.css"
 import { Swiper, SwiperSlide } from "swiper/react";
-import {  Pagination } from "swiper/modules";
+import {  Pagination,Navigation } from "swiper/modules";
 import Car1 from "../../assets/car1.svg"
 import Car2 from "../../assets/car22.svg"
 import Car3 from "../../assets/car3.svg"
@@ -25,6 +25,11 @@ const AreaOfInterest = () => {
           breakpoints={{
             1140:{
                 slidesPerView:7,
+                // slidesPerColumn: 1,
+                slidesPerGroup:1, 
+                loop:true,
+                
+              
             },
             1024:{
                 slidesPerView:6,
@@ -38,11 +43,14 @@ const AreaOfInterest = () => {
       }}
            modules={[Pagination]}
         pagination={{ clickable: true }}
+        // navigation={true}
            loopFillGroupWithBlank={true}
            loop={true}
            slidesPerView={6}
            spaceBetween={0}
            slidesPerGroup={1}
+           speed={1300}
+          
           
           >
             <SwiperSlide>

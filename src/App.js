@@ -13,11 +13,22 @@ import Footer from './Components/Footer/Footer';
 import Advantage from './Components/Advantage/Advantage';
 import Subscribe from './Components/Subscribe/Subscribe';
 import AreaOfInterest from './Components/AreaOfInterest/AreaOfInterest';
+import  Backto from "../src/assets/newbt2.svg"
+import { useState } from 'react';
 // import SimpleSlider from './Components/Slick/Slick';
 
 // import PageNotFound from './Components/PageNotFound/PageNotFound';
 
 function App() {
+  const [state,setState]=useState(false)
+  const backTo=()=>{
+    if(window.scrollY>100){
+      setState(true)
+    } else{
+      setState(false)
+    }
+  }
+  window.addEventListener('scroll',backTo)
   return (
     <div className="App">
       <Router>
@@ -31,6 +42,7 @@ function App() {
       <Advantage/>
       <Subscribe/>
       <Footer/>
+      <img onClick={() => window.scrollTo(0, 0)} className= {state? "ins2": "ins"} src={Backto}></img>
       {/* <Main/> */}
       {/* <Invite/>
       <Eventlist/> */}

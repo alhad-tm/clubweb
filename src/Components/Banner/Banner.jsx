@@ -18,7 +18,7 @@ const Banner = () => {
           <span>WINTER 2023</span>
           <div className={css.rbtns}>
          <Link to ="contact" spy={true} smooth={true}>  <button className={css.ctbtn}>Contact</button> </Link>  
-         <Link to ="contact" spy={true} smooth={true}>     <button className={css.mdbtn}>More Details</button> </Link>  
+         <Link to ="benefits" spy={true} smooth={true}>     <button className={css.mdbtn}>More Details</button> </Link>  
           </div>
         </div>
  </div>

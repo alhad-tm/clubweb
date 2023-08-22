@@ -45,8 +45,11 @@
 
 }
 .content>img:hover{
-    transform: scale(1.1);
-    transition-duration: 500ms;
+    transform: scale(0.91);
+    transition-duration: 1000ms  ;
+    
+    /* transition-delay:1000ms ease-in-out; */
+    
     cursor: pointer;
 }
 .content>span{

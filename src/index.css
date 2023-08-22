@@ -46,11 +46,11 @@ code {
   padding-top: 0.8rem !important;
 }
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
   #myBtn{
     width: 23px;
     height: 23px;
     right: 8px;
-    /* padding: 2%; */
+   
   }
-}
+} */
