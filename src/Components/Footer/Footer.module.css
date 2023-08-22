@@ -3,6 +3,12 @@
     color: rgb(255, 255, 255);
   padding:  3rem 0;
 }
+.newhr{
+    height: 0.6px;
+    width: 100%;
+    background-color: #808080;
+    opacity: 0.3;
+}
 .div1{
     display: flex;
     flex-direction: column;

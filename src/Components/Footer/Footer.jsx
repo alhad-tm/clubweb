@@ -28,6 +28,7 @@ const Footer = () => {
             </div>
         </div>
       </div> */}
+    <div className={css.newhr}></div>
 
       <div className={css.div2}>
         <div className={css.div2left}>
