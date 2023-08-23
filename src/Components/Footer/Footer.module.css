@@ -177,13 +177,13 @@ line-height: normal;
 
 .div3>:nth-child(1){
     color: #9F9F9F;
-/* font-family: Poppins; */
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
 }
+
 .linebtw{
     display: flex;
     justify-content: flex-end;
@@ -199,6 +199,7 @@ text-transform: capitalize;
 }
 .div3{
     margin-top: 2rem;
+    color: #9F9F9F;
 }
 @media screen and (max-width:786px){
     .container{
@@ -292,5 +293,10 @@ text-transform: capitalize;
     .ximage {
     width: 15px;
     height: 15px;
+}
+
+.newli>li:hover::after{
+    width: 62%;
+    left: 14%;
 }
 }

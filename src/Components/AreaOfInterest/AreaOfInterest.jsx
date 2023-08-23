@@ -26,25 +26,42 @@ const AreaOfInterest = () => {
             1140:{
                 slidesPerView:7,
                 // slidesPerColumn: 1,
-                slidesPerGroup:1, 
-                loop:true,
+                slidesPerGroup:7, 
+            
+                touchRatio: 0.2,
+                loop:false,
+                // slideToClickedSlide: true,
+                loopedSlides: 9,
+            
                 
               
             },
             1024:{
                 slidesPerView:6,
+                loop:false,
+                slidesPerGroup:6,
+                loopedSlides:9,
+                touchRatio: 0.2,
             },
         786: {
           slidesPerView: 6,
+          loop:false,
+          slidesPerGroup:6,
+          loopedSlides:9,
+          touchRatio: 0.2,
         },
         0: {
           slidesPerView: 4,
+          loop:true,
+          slidesPerGroup:1,
         },
       }}
            modules={[Pagination]}
         pagination={{ clickable: true }}
+        
+        // pagination={true} 
         // navigation={true}
-           loopFillGroupWithBlank={true}
+        //    loopFillGroupWithBlank={true}
            loop={true}
            slidesPerView={6}
            spaceBetween={0}

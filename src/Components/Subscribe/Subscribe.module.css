@@ -36,6 +36,12 @@ border: none;
 color: #FFF;
 font-size: 16px;
 }
+.subbtn:hover{
+    color: #007AFF;
+    background-color:black;
+    border: 1px solid #007AFF;
+    cursor: pointer;
+}
 .divright{
     padding: 3% 2%;
 }
